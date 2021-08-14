@@ -1,0 +1,20 @@
+{
+  "name": "node-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/higorsantana-omega/node-api.git",
+  "author": "higorsantana-omega <70420430+higorsantana-omega@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node-dev --transpile-only --ignore-watch node_modules --respawn src/index.ts"
+  },
+  "devDependencies": {
+    "@types/module-alias": "^2.0.1",
+    "@types/node": "^16.6.1",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.2",
+    "ts-node-dev": "^1.1.8"
+  }
+}
