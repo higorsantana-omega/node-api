@@ -1,5 +1,5 @@
 import * as path from 'path'
-import { addAlias, addAliases } from 'module-alias'
+import { addAliases } from 'module-alias'
 
 const files = path.resolve(__dirname, '../..')
 
