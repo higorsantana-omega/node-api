@@ -6,7 +6,9 @@
   "author": "higorsantana-omega <70420430+higorsantana-omega@users.noreply.github.com>",
   "license": "MIT",
   "scripts": {
-    "start": "ts-node-dev --transpile-only --ignore-watch node_modules --respawn src/index.ts",
+    "build": "tsc",
+    "start": "yarn build && node dist/src/index.js",
+    "dev": "ts-node-dev --transpile-only --ignore-watch node_modules --respawn src/index.ts",
     "lint": "eslint ./src ./test --ext .ts",
     "lint:fix": "eslint ./src ./test --ext .ts --fix"
   },
